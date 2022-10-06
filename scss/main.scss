@@ -1,0 +1,19 @@
+@import"./utils/variables";
+
+@import"./base/reset";
+@import"./base/typo";
+
+@import"./layout/header";
+@import"./layout/footer";
+@import"./layout/form";
+
+@import"./components/botones";
+@import "./components/cars";
+
+@import "./pages/index";
+@import "./pages/contacto";
+@import "./pages/marcas";
+@import "./pages/nosotros";
+@import "./pages/productos";
+
+

@@ -1,0 +1,38 @@
+.hero {
+    height: 100vh;
+    background-image: url(../assets/fondobolyfiesta.jpg.jpg);
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+&__texto {
+    color: white;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.438);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+&__texto h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+
+}
+
+&__texto h2 {
+    font-size: 3.5rem;
+    font-weight: 1200;
+    color: red;
+
+}
+a:hover{
+    
+    color: rgb(116, 28, 28);
+}
+
+}
