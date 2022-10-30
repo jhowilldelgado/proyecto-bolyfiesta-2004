@@ -1,3 +1,7 @@
+a:hover {
+  color: rgb(116, 28, 28);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -375,7 +379,5 @@ body {
   font-weight: 1200;
   color: red;
 }
-a:hover {
-  color: rgb(116, 28, 28);
-}
+
 /*# sourceMappingURL=styles.css.map */
