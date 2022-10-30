@@ -252,7 +252,7 @@ body {
   color: red;
 }
 
-.hero2 {
+.heros {
   height: 100vh;
   background-image: url(/assets/dulces2.jpg);
   background-attachment: fixed;
@@ -261,18 +261,18 @@ body {
   align-items: center;
   margin-bottom: 20px;
 }
-.hero2__texto {
+.heros__texto {
   color: white;
   text-align: center;
-  background-color: rgb(128, 128, 128);
+  background-color: rgba(128, 128, 128, 0.76);
   padding: 20px;
   border-radius: 20px;
 }
-.hero2__texto h1 {
+.heros__texto h1 {
   font-size: 3.5rem;
   font-weight: 800;
 }
-.hero2__texto h2 {
+.heros__texto h2 {
   font-size: 3.5rem;
   font-weight: 1200;
   color: red;
@@ -286,7 +286,7 @@ body {
   margin-bottom: 20px;
 }
 
-.hero5 {
+.heromarca {
   height: 100vh;
   background-image: url(/assets/dulce5.jpg);
   background-attachment: fixed;
@@ -295,24 +295,24 @@ body {
   align-items: center;
   margin-bottom: 20px;
 }
-.hero5__texto {
+.heromarca__texto {
   color: white;
   text-align: center;
-  background-color: rgb(128, 128, 128);
+  background-color: rgba(128, 128, 128, 0.76);
   padding: 20px;
   border-radius: 20px;
 }
-.hero5__texto h1 {
+.heromarca__texto h1 {
   font-size: 3.5rem;
   font-weight: 800;
 }
-.hero5__texto h2 {
+.heromarca__texto h2 {
   font-size: 3.5rem;
   font-weight: 1200;
   color: red;
 }
 
-.hero3 {
+.heronosotros {
   height: 100vh;
   background-image: url(/assets/dulce3.jpg);
   background-attachment: fixed;
@@ -321,18 +321,18 @@ body {
   align-items: center;
   margin-bottom: 20px;
 }
-.hero3__texto {
+.heronosotros__texto {
   color: white;
   text-align: center;
-  background-color: rgb(128, 128, 128);
+  background-color: rgba(128, 128, 128, 0.76);
   padding: 20px;
   border-radius: 20px;
 }
-.hero3__texto h1 {
+.heronosotros__texto h1 {
   font-size: 3.5rem;
   font-weight: 800;
 }
-.hero3__texto h2 {
+.heronosotros__texto h2 {
   font-size: 3.5rem;
   font-weight: 1200;
   color: red;
@@ -347,7 +347,7 @@ body {
   text-align: center;
 }
 
-.hero4 {
+.heropro {
   height: 100vh;
   background-image: url(/assets/dulce4.jpg);
   background-attachment: fixed;
@@ -356,18 +356,18 @@ body {
   align-items: center;
   margin-bottom: 20px;
 }
-.hero4__texto {
+.heropro__texto {
   color: white;
   text-align: center;
-  background-color: rgb(128, 128, 128);
+  background-color: rgba(128, 128, 128, 0.76);
   padding: 20px;
   border-radius: 20px;
 }
-.hero4__texto h1 {
+.heropro__texto h1 {
   font-size: 3.5rem;
   font-weight: 800;
 }
-.hero4__texto h2 {
+.heropro__texto h2 {
   font-size: 3.5rem;
   font-weight: 1200;
   color: red;

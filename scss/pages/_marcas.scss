@@ -5,7 +5,7 @@
     justify-content: center;
     margin-bottom: 20px;
 }
-.hero5{
+.heromarca{
     height: 100vh;
     background-image: url(/assets/dulce5.jpg);
     background-attachment: fixed;
@@ -19,7 +19,7 @@
 &__texto {
     color: $color-secundario;
     text-align: center;
-    background-color: rgb(128, 128, 128);
+    background-color: rgba(128, 128, 128, 0.76);
     padding: 20px;
     border-radius: 20px;
 
