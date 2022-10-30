@@ -1,25 +1,68 @@
-
 .caja {
+    width: 250px;
     margin: 15px;
-    border: solid black 1px;
+    height: 340px;
+    border: solid $color-primario 1px;
     border-radius: 15px;
+    transition: all .5s ease;
+    box-shadow: 0px 2px 10px rgba(250, 90, 90, 0.42);
+
+
     & img {
-    width: 220px;
-    height: 200px;
+        width:220px;
+        height: 200px;
+      
+        border-radius: 15px;
+    }
+
+    & h2,
+    h3 {
+        margin: 5px;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    & p {
+
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+}
+
+.caja:hover {
+    width:270px;
+    box-shadow: 5px 7px 20px rgba(252, 82, 82, 0.671);
+    transform: translateY(-4%);
+}
+
+
+
+.marca {
+    margin: 15px;
+    border: solid $color-primario 1px;
     border-radius: 15px;
-}
-& h2,h3 {
-    text-align: center;
-}
-& p {
+    box-shadow: 0px 2px 10px rgba(250, 90, 90, 0.42);
+    transition: all .5s ease;
+    color: $color-primario;
+
+    & img {
+        width: 300px;
+        height: 200px;
+        border-radius: 15px;
+    }
+
+    & p {
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+    }
     
-    text-align: center;
-    font-weight: bold;
-    font-size: 2.5rem;
 }
-& a{
-    
-    color: red;
-}
+
+.marca:hover {
+    box-shadow: 5px 7px 20px rgba(252, 82, 82, 0.671);
+    transform: translateY(-4%);
 
 }

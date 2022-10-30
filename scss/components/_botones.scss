@@ -1,0 +1,70 @@
+.btn-comprar {
+    width: 100%;
+    padding: 5px 20px 5px 20px;
+    font-size: 20px;
+    color: $color-secundario;
+
+    text-align: center;
+    background-color: $color-primario;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 3px solid $color-secundario;
+    transition: all .5s ease;
+}
+
+.btn-comprar:hover {
+    border-radius: 15px;
+    padding: 12px;
+    background-color: $color-secundario;
+    color: $color-primario;
+    border: 2px solid $color-primario;
+
+}
+
+.btn-marcas {
+    color: $color-primario;
+    background-color: $color-secundario;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all .5s ease;
+
+
+}
+.btn-ver {
+    color: $color-primario;
+    background-color: $color-secundario;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.btn-marcas:hover{
+    padding-left:40px;
+    padding-right: 40px;
+    color: $color-primario;
+
+
+
+
+}
+.contenedor-form .formulario .form-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 15px;
+    background-color: $color-primario;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 3px solid white;
+    transition: all .5s ease;
+}
+
+.contenedor-form .formulario .form-btn:hover {
+    background-color: $color-secundario;
+    color: $color-primario;
+    border: 2px solid $color-primario;
+}

@@ -10,7 +10,7 @@
 
 
 &__texto {
-    color: white;
+    color: $color-secundario;
     text-align: center;
     background-color: rgba(128, 128, 128, 0.438);
     padding: 20px;
@@ -27,7 +27,7 @@
 &__texto h2 {
     font-size: 3.5rem;
     font-weight: 1200;
-    color: red;
+    color:$color-primario;
 
 }
 a:hover{
@@ -36,3 +36,4 @@ a:hover{
 }
 
 }
+

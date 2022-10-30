@@ -4,4 +4,38 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 20px;
+    text-align: center;
+
+}
+.hero4 {
+    height: 100vh;
+    background-image: url(/assets/dulce4.jpg);
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+&__texto {
+    color: $color-secundario;
+    text-align: center;
+    background-color: rgb(128, 128, 128);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+&__texto h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+
+}
+
+&__texto h2 {
+    font-size: 3.5rem;
+    font-weight: 1200;
+    color: red;
+}
 }

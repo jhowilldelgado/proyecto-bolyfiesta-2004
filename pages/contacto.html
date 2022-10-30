@@ -23,8 +23,7 @@
     <nav class="container-fluid">
         <a class="navbar-brand d-none d-sm-inline d-lg-inline" href="#"><img src="../assets/logo.png" alt="logo"
                 width="90" height="90" class="d-inline-block align-text-botoom"></a>
-                <a href="../index.html"><span
-            class="display-4 fw-bold text-light d-lg-inline ">Bolyfiesta2004</span></a>
+        <a href="../index.html"><span class="display-4 fw-bold text-light d-lg-inline ">Bolyfiesta2004</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -58,7 +57,7 @@
 <!-- ==============SECCION HERO================== -->
 
 <body>
-    <section class="hero">
+    <section class="hero2">
         <div class="hero__texto">
             <h1>
                 Confiterias y Pinaterias
@@ -80,32 +79,35 @@
         ">
             Formulario Consulta
         </div>
-        <section class="formulario-contenedor">
+        <section class="contenedor-form">
+            <form class="formulario">
+                <h2 class="form-titulo">
+                    C<span>ONTACTO</span>
+                </h2>
 
+                <p class="form-tex">NOMBRE Y APELLIDO</p> <input type="text" placeholder="JOSE MARCANO"
+                    class="form-input">
 
+                <p class="form-tex">TELEFONO</p> <input type="text" placeholder="123456789" class="form-input">
 
-            <form class="formulario mb-4">
+                <p class="form-tex">EMAIL</p><input type="email" placeholder="EJEMPLO@GMAIL.COM" class="form-input">
 
-                <p>NOMBRE Y APELLIDO <input type="text" placeholder="JOSE MARCANO"></p>
+                <p class="form-tex">RAZON DE CONTACTO
+                    <select name="" id="" class="form-texselec">
 
-                <p>TELEFONO <input type="text" placeholder="123456789"></p>
-
-                <p>EMAIL<input type="email" placeholder="EJEMPLO@GMAIL.COM"></p>
-
-                <p>RAZON DE CONTACTO
-                    <select name="" id="">
-
-                        <option value="Consulta">Consulta</option>
-                        <option value="Recomendaciones">Recomendaciones</option>
-                        <option value="Reclamos">Reclamos</option>
+                        <option value="Consulta" class="form-tex">Consulta</option>
+                        <option value="Recomendaciones" class="form-tex">Recomendaciones</option>
+                        <option value="Reclamos" class="form-tex">Reclamos</option>
                     </select>
                 </p>
 
-                <textarea name="" id="" cols="100" rows="10"></textarea>
-                <input type="submit" class="btn btn-danger mt-2
+                <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Escriba aqui"
+                    class="form-texarea"></textarea>
+
+                <input type="submit" class="form-btn
                 ">
 
-                <span>
+                <span class="form-tex">
                     ¿Deseas recibir Promociones?
                 </span>
 
@@ -125,7 +127,8 @@
                 <div
                     class="d-flex  flex-column align-items-center align-items-md-start align-items-lg-start col-md-3 col-lg-3">
                     <img src="../assets/logo.png" alt="logo" class="w-50 pt-2 ">
-                    <p class="text-center text-md-start text-lg-start">Direccion: Calle Paez Edif. Lody P.B local 1 y 2 San Felix Mun. Caroni Edo. Bolivar.
+                    <p class="text-center text-md-start text-lg-start">Direccion: Calle Paez Edif. Lody P.B local 1 y 2
+                        San Felix Mun. Caroni Edo. Bolivar.
                     </p>
                 </div>
                 <div class="col-md-3 col-lg-3 d-flex justify-content-center align-items-md-end align-items-lg-center">
