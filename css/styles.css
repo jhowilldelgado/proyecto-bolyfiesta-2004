@@ -254,7 +254,7 @@ body {
 
 .heros {
   height: 100vh;
-  background-image: url(../assets/dulces2.jpg);
+  background-image: url(../assets/fondobolyfiesta.jpg.jpg);
   background-attachment: fixed;
   display: flex;
   justify-content: center;
@@ -288,7 +288,7 @@ body {
 
 .heromarca {
   height: 100vh;
-  background-image: url(../assets/dulce3.jpg);
+  background-image: url(../assets/fondobolyfiesta.jpg.jpg);
   background-attachment: fixed;
   display: flex;
   justify-content: center;
@@ -314,7 +314,7 @@ body {
 
 .heronosotros {
   height: 100vh;
-  background-image: url(../assets/dulce5.jpg);
+  background-image: url(../assets/fondobolyfiesta.jpg.jpg);
   background-attachment: fixed;
   display: flex;
   justify-content: center;
@@ -349,7 +349,7 @@ body {
 
 .heropro {
   height: 100vh;
-  background-image: url(/assets/dulce4.jpg);
+  background-image: url(../assets/dulce4.jpg);
   background-attachment: fixed;
   display: flex;
   justify-content: center;
