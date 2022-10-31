@@ -260,32 +260,6 @@ body {
   margin-bottom: 20px;
 }
 
-.heromarca {
-  height: 100vh;
-  background-image: url(../assets/fondobolyfiesta.jpg.jpg);
-  background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-.heromarca__texto {
-  color: white;
-  text-align: center;
-  background-color: rgba(128, 128, 128, 0.76);
-  padding: 20px;
-  border-radius: 20px;
-}
-.heromarca__texto h1 {
-  font-size: 3.5rem;
-  font-weight: 800;
-}
-.heromarca__texto h2 {
-  font-size: 3.5rem;
-  font-weight: 1200;
-  color: red;
-}
-
 .heronosotros {
   height: 100vh;
   background-image: url(../assets/fondobolyfiesta.jpg.jpg);
@@ -307,41 +281,6 @@ body {
   font-weight: 800;
 }
 .heronosotros__texto h2 {
-  font-size: 3.5rem;
-  font-weight: 1200;
-  color: red;
-}
-
-.contenedor-caja {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.heropro {
-  height: 100vh;
-  background-image: url(../assets/dulce4.jpg);
-  background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-.heropro__texto {
-  color: white;
-  text-align: center;
-  background-color: rgba(128, 128, 128, 0.76);
-  padding: 20px;
-  border-radius: 20px;
-}
-.heropro__texto h1 {
-  font-size: 3.5rem;
-  font-weight: 800;
-}
-.heropro__texto h2 {
   font-size: 3.5rem;
   font-weight: 1200;
   color: red;
